@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int swap(int *a, int *b);
+void swap(int *a, int *b);
 
 int main() {
     int number_1, number_2;
@@ -24,10 +24,8 @@ int main() {
 }
 
 
-int swap(int *a, int *b){
+void swap(int *a, int *b){
     *a = *a ^ *b;
     *b=  *a ^ *b;
-    *a = *b ^ *a;
-
-    return *a,*b;
+    *a = *a ^ *b;
 }

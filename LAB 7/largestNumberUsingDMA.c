@@ -28,9 +28,56 @@ int main(){
             largest = number[i];
         }
     }
+    
+    free(number);
 
     printf("The largest number is %d",largest);
 
-    free(number);
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
